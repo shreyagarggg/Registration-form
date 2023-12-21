@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('images/images.jpeg');
+    background-size:cover;
+    color: #fff;
+
+}
+
+header h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    
+}
+
+.main h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.main p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: black;
+}
+
+.main input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.main button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.main button:hover{
+    color: red;
+    cursor: pointer;
+    background-color: pink;
+}
